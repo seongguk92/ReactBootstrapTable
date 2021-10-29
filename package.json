@@ -1,0 +1,17 @@
+{
+  "name": "reactbootstraptable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node service.js",
+    "appClient": "cd client && npm start",
+    "ckeditor": "concurrently \"node service.js\" \"npm run appClient\"" 
+  },
+  "author": "CodeAxen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+} 
